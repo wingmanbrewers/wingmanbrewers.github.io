@@ -1,7 +1,5 @@
----
-name: Ace IPA
-description: Something about Ace
----
-ace : 
+{% assign name = "Ace IPA" %}
+{% assign description = "Something about Ace" }
+ace :
 {% include beers/layout.md %}
-: ace
+: ace<br>
