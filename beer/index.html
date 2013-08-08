@@ -11,3 +11,12 @@ This is the beer page
 {% include test.html %}
 <hr>
 {% include test.md %}
+
+<p>
+posts:
+</p>
+
+{% for post in site.posts %}
+  {{ post.content }}
+{% endfor %}
+
