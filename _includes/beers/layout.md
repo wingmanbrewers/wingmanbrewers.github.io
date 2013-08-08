@@ -1,7 +1,6 @@
 ---
 test: true
 ---
+## {{ name }}
 
-## {{ page.name }} or {{ name }}
-
-{{ include.description }} or {{ description }}
+{{ description }}
