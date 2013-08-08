@@ -1,3 +1,3 @@
-## {{ include.beer.name }}
+## {{ page.name }} or {{ name }}
 
-{{ include.beer.description }}
+{{ include.description }} or {{ description }}
