@@ -3,3 +3,7 @@ layout: default
 title: Wingman Brewers
 ---
 Welcome to the test website for Wingman Brewers
+
+{% for post in site.posts %}
+{% include post.html %}
+{% endfor %}
