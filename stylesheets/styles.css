@@ -23,7 +23,8 @@ body {
 #nav {
     position: absolute;
     top: 0px;
-    bottom: 0;
+    bottom: 0px;
+    min-height: 500px;
     width: 10em;
     border-right: 10px solid #3d2a2e;
 }
