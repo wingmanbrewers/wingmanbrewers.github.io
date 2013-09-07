@@ -10,10 +10,11 @@ body {
 }
 
 #page {
-    width: 1000px;
+    max-width: 1000px;
+    min-width: 480px;
     margin: auto;
     height: 100%;
-    box-shadow: 5px 0px 10px #666;
+    box-shadow: 5px 0px 12px #999;
     background: #ffffff url("/img/dots.png") repeat-y;
 }
 #page-inner{
@@ -42,8 +43,7 @@ body {
     top: -50px;
     right: -200px;
     -webkit-transform:rotate(-20deg);
-    opacity: 0.3;
-    z-index: 0;
+    opacity: 0.25;
 }
 #menu {
     margin: 180px 0 0 0;
@@ -58,19 +58,36 @@ body {
     padding: 10px 0 10px 10px;
     margin-bottom: 5px;
 }
+#menu li:hover {
+    margin-left: -15px;
+}
+#social {
+    position: absolute;
+    bottom: 0;
+}
 
-
+#newsletter {
+    margin: 50px auto;
+    width: 8em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 125%;
+}
+#newsletter a {
+    color: #372529;
+    text-decoration: none;
+}
 
 #content {
     position: relative;
+    margin-top: .5em;
     margin-left: 12em;
-    z-index: 100;
 }
 
 h2.tagline {
     color: black;
-    font-size: 220%;
-    margin: -1em 0 0 0;
+    font-size: 200%;
+    margin: 0;
     padding: 0;
     text-transform: uppercase;
 }
