@@ -3,10 +3,10 @@ html,body {
 }
 
 body {
-  padding:0px;
-  margin: 0px;
-  color:#3d2a2e;
-  background-color: #ddd;
+    padding:0px;
+    margin: 0px;
+    color:#3d2a2e;
+    background: #ddd url("/img/wall_bg.png") repeat;
 }
 
 #page {
@@ -15,6 +15,7 @@ body {
     margin: auto;
     height: 100%;
     box-shadow: 5px 0px 12px #999;
+    border-left: 1px solid #d6d6d6;
     background: #ffffff url("/img/dots.png") repeat-y;
 }
 #page-inner{
