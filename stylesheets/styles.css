@@ -1,5 +1,26 @@
-html,body {
+html {
     height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    color:#3d2a2e;
+    background: #ddd url("/img/wall_bg.png") repeat;
+}
+#page {
+    box-shadow: 5px 0px 12px #999;
+    border-left: 1px solid #d6d6d6;
+    background-color: #ffffff;
+    background: url("/img/plane_bg.png") repeat, url("/img/dots.png") repeat-y;
+    max-width: 1000px;
+    min-width: 480px;
+    margin: auto;
+    margin-bottom: -4em;
+    min-height: 100%;
+    height: auto !important; /*min-height hack*/
+    height: 100%;            /*min-height hack*/
+    position: relative;
 }
 
 a, a:hover, a:visited, a:active {
@@ -10,25 +31,12 @@ a:hover {
     text-decoration: underline;
 }
 
-body {
-    padding: 0px;
-    margin: 0px;
-    color:#3d2a2e;
-    background: #ddd url("/img/wall_bg.png") repeat;
-}
-
 #page {
-    margin: 0px auto;
-    box-shadow: 5px 0px 12px #999;
-    border-left: 1px solid #d6d6d6;
-    max-width: 1000px;
-    min-width: 480px;
-    position:relative;
-    background: #ffffff url("/img/dots.png") repeat-y;
-    height: 100%;
+    margin: auto;
+    height:auto !important;
+    min-height:100%;
 }
 #page-inner{
-    height: 100%;
     background: url("/img/plane_bg.png") repeat;
 }
 #nav {
@@ -48,7 +56,6 @@ body {
     left: 5px;
     height: 150px;
     width: 150px;
-    z-index: 2;
 }
 #bigstamp {
     position: absolute;
@@ -90,9 +97,11 @@ body {
     font-size: 125%;
 }
 #content {
-    position: relative;
-    padding-top: 2em;
-    margin-left: 12em;
+    height: 100%;
+    margin-left: 10em;
+    padding-left: 10px;
+    z-index: 10;
+    position:relative;
 }
 
 h2.tagline {
@@ -103,6 +112,44 @@ h2.tagline {
     text-transform: uppercase;
 }
 
+.beers {
+    z-index: 100;
+}
+.beertype {
+    color: white;
+    background: #3d2a2e;
+    padding: .5em;
+    margin: 0;
+
+}
+.beerlist {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+.beerlist li {
+    margin: 0px;
+    padding: 5px;
+}
+.beer {
+    border-bottom: 5px solid #3d2a2e;
+    position:relative;
+    overflow:auto;
+}
+.beer p {
+    margin: 0;
+}
+.beer h3 {
+    margin: 0;
+    padding: 0;
+}
+.beerlogo {
+    float: left;
+    width: 175px;
+    height: 125px;
+    margin: -5px 10px -5px -5px;
+    background: #fff;
+}
 
 /*
 dark1/font: 3d2a2e

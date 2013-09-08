@@ -2,8 +2,27 @@
 layout: default
 title: Beer Page
 ---
-This is the beer page
 
-{% include beers/ace.md %}
-{% include beers/p51.md %}
+<div id="beers">
 
+    <h2 class="beertype">Year-round beers</h2>
+
+    <ul class="beerlist">
+        {% include beers/ace.html %}
+        {% include beers/p51.html %}
+        {% include beers/missbhaven.html %}
+    </ul>
+
+    <h2 class="beertype">Seasonal Beers</h2>
+
+    <ul class="beerlist">
+        {% include beers/p51_coconut.html %}
+    </ul>
+
+    <h2 class="beertype">Special Beers</h2>
+
+    <ul class="beerlist">
+        {% include beers/stratofortress.html %}
+    </ul>
+
+</div>
