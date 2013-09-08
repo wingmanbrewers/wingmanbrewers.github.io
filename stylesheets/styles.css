@@ -2,6 +2,14 @@ html,body {
     height: 100%;
 }
 
+a, a:hover, a:visited, a:active {
+    text-decoration: none;
+    color: #372529;
+}
+a:hover {
+    text-decoration: underline;
+}
+
 body {
     padding: 0px;
     margin: 0px;
@@ -55,6 +63,10 @@ body {
     list-style-type: none;
     padding-left: 2em;
 }
+#menu a {
+    color: white;
+    display: block;
+}
 #menu li {
     background: #372529;
     color: white;
@@ -77,11 +89,6 @@ body {
     font-weight: bold;
     font-size: 125%;
 }
-#newsletter a {
-    color: #372529;
-    text-decoration: none;
-}
-
 #content {
     position: relative;
     padding-top: 2em;
