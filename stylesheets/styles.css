@@ -112,8 +112,11 @@ h2.tagline {
     text-transform: uppercase;
 }
 
-.beers {
-    z-index: 100;
+#index {
+    padding: 20px;
+}
+
+#beer {
 }
 .beertype {
     color: white;
@@ -131,15 +134,15 @@ h2.tagline {
     margin: 0px;
     padding: 5px;
 }
-.beer {
+.beerinfo {
     border-bottom: 5px solid #3d2a2e;
     position:relative;
     overflow:auto;
 }
-.beer p {
+.beerinfo p {
     margin: 0;
 }
-.beer h3 {
+.beerinfo h3 {
     margin: 0;
     padding: 0;
 }
