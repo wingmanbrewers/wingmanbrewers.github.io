@@ -1,11 +1,36 @@
 ---
 layout: default
-title: Beer Page
+title: Wingman Brewers Beer
+keywords: IPA, Porter, Pale, Ace IPA, P-51 Porter, Pin-up Pale, Beer, Brewery, Tacoma Beer, Tacoma Brewery
+description: We create richly flavored beers to entice the aficionado without straying from the blue collar roots they share with the rest of Tacoma.
 ---
 
 <div id="beer">
 
-    <h2 class="beertype">Year-round beers</h2>
+    <h1>Wingman Brewers Beer</h1>
+
+    <div id="beer-intro">
+        <p>
+        In its simplest form, beer is made from four things: water, barley, hops and yeast. These four ingredients can
+        produce flavors ranging from the boldness of chocolate and coffee to the bite of grapefruit or the smooth
+        sweetness of a banana.
+        </p>
+        <p>
+        While we occasionally add other ingredients to our beer, we do so while striving to create rich flavors capable
+        of subtle nuance to entice the aficionado without straying from the straightforward, blue collar roots our beers
+        share with the rest of Tacoma.
+        </p>
+        <p>
+        We like to experiment and you will almost always find a unique brew available only at
+        <a href="/taproom/">our taproom</a>, but we also do our best to make sure you can find your favorites in a can,
+        bottle, or even on draft at your local watering hole.
+        </p>
+    </div>
+
+    <div class="beertype">
+        <h2>Year-round beers<div class="tail"></div></h2>
+        <div class="details">These are the staple beers we brew regularly throughout the year.</div>
+    </div>
 
     <ul class="beerlist">
         {% include beers/ace.html %}
@@ -13,16 +38,23 @@ title: Beer Page
         {% include beers/missbhaven.html %}
     </ul>
 
-    <h2 class="beertype">Seasonal Beers</h2>
+    <div class="beertype">
+        <h2>Seasonal Beers<div class="tail"></div></h2>
+        <div class="details">Each of these beers is only available a few months out of the year: Winter, Spring, Summer, Fall.</div>
+    </div>
 
     <ul class="beerlist">
         {% include beers/p51_coconut.html %}
     </ul>
 
-    <h2 class="beertype">Special Beers</h2>
+    <div class="beertype">
+        <h2>Special Beers<div class="tail"></div></h2>
+        <div class="details">We brew these premium beers whenever we get the chance, but they tend to disappear quickly.</div>
+    </div>
 
     <ul class="beerlist">
         {% include beers/stratofortress.html %}
+        {% include beers/2xipa.html %}
     </ul>
 
 </div>

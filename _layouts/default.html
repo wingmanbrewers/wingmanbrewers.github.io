@@ -3,8 +3,48 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>{{ page.title }}</title>
+
+    <script src="//ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: ['Nixie One', 'Sintony']
+            }
+        });
+    </script>
     <link rel="stylesheet" type="text/css" href="/stylesheets/styles.css" />
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+
+
+    <!-- script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script -->
+
+    <meta property="fb:admins" content="1414269123,1097262343,44902196,562035011,17702500,598350098" />
+
+    <link rel="canonical" href="http://wingmanbrewers.com/"/>
+
+    <meta name="geo.position" content="47.241093;-122.427365">
+    <meta name="geo.placename" content="Tacoma, WA">
+    <meta name="geo.region" content="US-WA">
+
+    <meta property="og:title" content="Wingman Brewers" />
+    <meta property="og:type" content="company" />
+    <meta property="og:url" content="http://wingmanbrewers.com/" />
+    <meta property="og:image" content="http://wingmanbrewers.com/img/logo_white_bg.png" />
+    <meta property="og:description" content="{{ page.description }}" />
+
+    <meta property="og:latitude" content="47.241093" />
+    <meta property="og:longitude" content="-122.427365" />
+    <meta property="og:street-address" content="509 1/2 Puyallup Ave." />
+    <meta property="og:locality" content="Tacoma" />
+    <meta property="og:region" content="WA" />
+    <meta property="og:postal-code" content="98421" />
+    <meta property="og:country-name" content="USA" />
+
+    <meta name="keywords" content="{{ page.keywords }}">
+    <meta name="description" content="{{ page.description }}">
+
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    <link rel="image_src" href="http://wingmanbrewers.com/img/logo_white_bg.png" />
+
 </head>
 <body>
 
@@ -26,15 +66,19 @@
         <a href="#">Sign up for our newsletter</a>
         </div>
 
-        <ul id="social">
-           <li>twitter</li>
-           <li>facebook</li>
-           <li>google+</li>
-        </ul>
     </div>
 
     <div id="content">
     {{ content }}
+    </div>
+
+    <div id="footer">
+        <ul id="social">
+            <li>twitter</li>
+            <li>facebook</li>
+            <li>google+</li>
+        </ul>
+        <div id="copyright">&copy; 2013 Wingman Brewers</div>
     </div>
 
 </div><!-- #page -->

@@ -7,6 +7,7 @@ body {
     height: 100%;
     color:#3d2a2e;
     background: #ddd url("/img/wall_bg.png") repeat;
+    font-family: 'Sintony', sans-serif;
 }
 #page {
     box-shadow: 5px 0px 12px #999;
@@ -45,7 +46,7 @@ a:hover {
     bottom: 0px;
     min-height: 500px;
     width: 10em;
-    border-right: 10px solid #3d2a2e;
+    border-right: 10px solid #372529;
 }
 #logo {
     position: relative;
@@ -70,6 +71,7 @@ a:hover {
     padding: 0;
     list-style-type: none;
     padding-left: 2em;
+    font-family: 'Nixie One', cursive;
 }
 #menu a {
     color: white;
@@ -119,12 +121,51 @@ h2.tagline {
 
 #beer {
 }
-.beertype {
-    color: white;
-    background: #3d2a2e;
-    padding: .5em;
+#beer h1 {
     margin: 0;
-
+    padding: .5em;
+}
+#beer-intro {
+    margin-left: 1em;
+}
+#beer-intro p {
+    margin-top: 0;
+}
+.beertype {
+    border-top: 5px solid #372529;
+    color: white;
+    background: #554245;
+    min-height: 40px;
+    margin: -5px 0 0 0;
+    overflow: auto;
+    font-family: 'Nixie One', cursive;
+}
+.beertype h2 {
+    position:relative;
+    background: #372529;
+    margin: 0px;
+    padding: 0 0 0 .5em;
+    height: 40px;
+    line-height: 40px;
+    width: 9.5em;
+    float: left;
+    font-weight: normal;
+}
+.beertype h2 .tail {
+    background: #372529;
+    position:absolute;
+    top: 0px;
+    height: 0px;
+    width: 0px;
+    right:-25px;
+    border-top: 40px solid transparent;
+    border-right: 25px solid #554245;
+}
+.beertype .details {
+    font-weight: normal;
+    margin-left: 18em;
+    padding: 2px 0 0 30px;
+    font-size: 85%;
 }
 .beerlist {
     list-style-type: none;
@@ -136,7 +177,7 @@ h2.tagline {
     padding: 5px;
 }
 .beerinfo {
-    border-bottom: 5px solid #3d2a2e;
+    border-bottom: 5px solid #372529;
     position:relative;
     overflow:auto;
 }
