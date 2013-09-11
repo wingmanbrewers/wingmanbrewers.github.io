@@ -87,9 +87,16 @@ a:hover {
 #menu li:hover {
     margin-left: -15px;
 }
-#social {
+
+#footer {
     position: absolute;
     bottom: 0;
+    width: 10em;
+}
+#copyright {
+    font-size: 60%;
+    text-align: center;
+    margin-bottom: .5em;
 }
 
 #newsletter {
