@@ -9,6 +9,14 @@ body {
     background: #ddd url("/img/wall_bg.png") repeat;
     font-family: 'Sintony', sans-serif;
 }
+
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+
 #page {
     box-shadow: 5px 0px 12px #999;
     border-left: 1px solid #d6d6d6;
@@ -26,7 +34,7 @@ body {
 
 a, a:hover, a:visited, a:active {
     text-decoration: none;
-    color: #372529;
+    color: #972529;
 }
 a:hover {
     text-decoration: underline;
@@ -132,6 +140,9 @@ h2.tagline {
     width: 350px;
     float:right;
     margin-left: 20px;
+}
+#index-text {
+    max-width: 425px;
 }
 
 #beer {
