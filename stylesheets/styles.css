@@ -127,6 +127,12 @@ h2.tagline {
 #index {
     padding: 20px;
 }
+#facebook-feed {
+    background:white;
+    width: 350px;
+    float:right;
+    margin-left: 20px;
+}
 
 #beer {
 }
