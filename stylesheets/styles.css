@@ -100,11 +100,13 @@ a:hover {
 }
 
 #newsletter {
-    margin: 50px auto;
-    width: 8em;
+    margin: 25px auto;
+    padding: .5em;
+    width: 6.25em;
     text-align: center;
     font-weight: bold;
-    font-size: 125%;
+    border: 2px solid #3d2a2e;
+    background: white;
 }
 #content {
     height: 100%;
@@ -203,6 +205,22 @@ h2.tagline {
     background: white;
     border-right: 1px solid #554245;
     margin: -5px 10px -5px -5px;
+}
+
+#footer {}
+#social {
+    padding: .5em;
+
+}
+#social ul {
+    width: 9em;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#social li {
+    padding-bottom: .5em;
 }
 
 /*
