@@ -198,9 +198,10 @@ h2.tagline {
 .beerlogo {
     float: left;
     width: 175px;
-    height: 125px;
+    height: 150px;
+    background: white;
+    border-right: 1px solid #554245;
     margin: -5px 10px -5px -5px;
-    background: #fff;
 }
 
 /*
