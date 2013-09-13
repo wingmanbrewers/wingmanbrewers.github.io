@@ -223,6 +223,29 @@ h2.tagline {
     padding-bottom: .5em;
 }
 
+
+#contact-map {
+    border: 1px solid #3d2a2e;
+}
+
+#taproom {
+    padding: .5em;
+}
+
+#taproom-map {
+    border: 1px solid #3d2a2e;
+    width: 400px;
+    height: 400px;
+    float:left;
+    margin-right: 10px;
+}
+
+#taproom-galleria {
+    width: 402px;
+    height: 402px;
+    float:left;
+}
+
 /*
 dark1/font: 3d2a2e
 font2: 6c5a5d

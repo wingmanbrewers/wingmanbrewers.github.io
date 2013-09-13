@@ -9,22 +9,37 @@ description: Information, directions and hours for the Wingman Brewers Taproom a
 
     <h1>Wingman Brewers Taproom</h1>
 
-        <p>
-            Our taproom and brew house are open Thursdays through Saturdays 2&ndash;11pm.  Come down and sample our beers,
-            enjoy a pint, and go home with a growler:
-        </p>
+    <p>
+        Our taproom and brew house are open Thursdays through Saturdays 2&ndash;11pm.  Come down and sample our beers,
+        enjoy a pint, and go home with a growler.
+    </p>
+    <p>
+        Though we don't serve food, you're more than welcome to bring your own.
+        There are a variety of great restaurants nearby which offer take-out and delivery options.
+    </p>
 
-        <p class="address">
-            <a href="http://g.co/maps/fxm4g">
-                Wingman Brewers<br>
-                509 1/2 Puyallup Ave<br>
-                Tacoma, WA 98421</a>
-        </p>
+    <p class="address">
+        <a href="http://g.co/maps/fxm4g">
+            Wingman Brewers<br>
+            509 1/2 Puyallup Ave<br>
+            Tacoma, WA 98421</a>
+    </p>
 
-        <div id="contact-map">
-            <iframe width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?q=509+1%2F2+Puyallup+Ave+Tacoma,+WA+98421&amp;hnear=509+1%2F2+Puyallup+Ave,+Tacoma,+Washington+98421&amp;t=m&amp;ie=UTF8&amp;hq=&amp;z=14&amp;iwloc=A&amp;ll=47.241093,-122.427365&amp;output=embed"></iframe>
-        </div>
-
+    <div id="taproom-map">
+        <iframe width="400" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&source=s_q&hl=en&geocode=&q=509%2B1%2F2%2BPuyallup%2BAve%2BTacoma%2C%2BWA%2B98421&ie=UTF8&z=14&t=m&iwloc=near&output=embed"></iframe><br>
     </div>
 
+    <div id="taproom-galleria"></div>
+
+    <br style="clear:both"/>
+
 </div>
+
+<script src="/javascripts/galleria/galleria-1.2.9.min.js"></script>
+<script src="/javascripts/galleria/plugins/facebook/galleria.facebook.js"></script>
+<script>
+    Galleria.loadTheme('/javascripts/galleria/themes/classic/galleria.classic.min.js');
+    Galleria.run('#taproom-galleria', {
+        facebook: 'album:10151627386965418',
+        lightbox: false});
+</script>
