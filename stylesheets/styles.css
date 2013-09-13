@@ -223,26 +223,36 @@ h2.tagline {
     padding-bottom: .5em;
 }
 
+#contact {
+    padding: 20px;
+}
+#contact h1 {
+    margin: 0;
+}
 
 #contact-map {
     border: 1px solid #3d2a2e;
+    width: 380px;
+    height: 380px;
 }
 
 #taproom {
-    padding: .5em;
+    padding: 20px;
 }
+#taproom h1 {
+    margin: 0;
+}
+
 
 #taproom-map {
     border: 1px solid #3d2a2e;
-    width: 400px;
-    height: 400px;
     float:left;
     margin-right: 10px;
 }
 
 #taproom-galleria {
-    width: 402px;
-    height: 402px;
+    width: 382px;
+    height: 382px;
     float:left;
 }
 
