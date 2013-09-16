@@ -72,6 +72,9 @@ a:hover {
     top: -50px;
     right: -200px;
     -webkit-transform:rotate(-20deg);
+    -moz-transform:rotate(-20deg);
+    -o-transform:rotate(-20deg);
+    transform: rotate(-20deg);
     opacity: 0.25;
 }
 #menu {
@@ -84,24 +87,30 @@ a:hover {
 #menu a {
     color: white;
     display: block;
+    padding: 10px 0 10px 10px;
+    background: #372529;
 }
 #menu li {
-    background: #372529;
     color: white;
     font-weight: bold;
-    padding: 10px 0 10px 10px;
     margin-bottom: 5px;
 }
-#menu li:hover {
-    margin-left: -15px;
+#menu a:hover {
+    background: #3d2a2e;
+    color: #ff6f53;
+    text-decoration: none;
 }
 
 #footer {
     position: absolute;
     bottom: 0;
     width: 10em;
+    min-height: 125px;
 }
 #copyright {
+    position:absolute;
+    bottom: 0px;
+    width: 100%;
     font-size: 60%;
     text-align: center;
     margin-bottom: .5em;
@@ -116,6 +125,27 @@ a:hover {
     border: 2px solid #3d2a2e;
     background: white;
 }
+#follow-us {
+    margin-bottom: .25em;
+    font-size: 90%;
+}
+#social {
+    margin: auto;
+    padding: .5em;
+    width: 6.25em;
+    border: 2px solid #3d2a2e;
+    background: white;
+    text-align: center;
+}
+#social ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+#social li {
+    padding-bottom: .3em;
+}
+
 #content {
     height: 100%;
     margin-left: 10em;
@@ -239,22 +269,16 @@ h2.tagline {
     margin: -5px 10px -5px -5px;
 }
 
-#footer {}
+#footer {
+    position:absolute;
+    bottom: 0;
+    background-image: url("/img/stamp3.png");
+    background-repeat: no-repeat;
+    background-position: bottom 1.5em center;
+}
 #social {
     padding: .5em;
-
 }
-#social ul {
-    width: 9em;
-    text-align: center;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-#social li {
-    padding-bottom: .5em;
-}
-
 #contact {
     padding: 20px;
 }
