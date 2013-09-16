@@ -135,7 +135,22 @@ h2.tagline {
 #index {
     padding: 20px;
 }
+#taproom-info {
+    border: 2px solid #372529;
+    background: white;
+    float:right;
+    padding: 5px;
+    width: 336px;
+    margin: 0 0 10px 20px;
+    text-align: center;
+    font-size: 95%;
+}
+#taproom-info a {
+    font-size: 105%;
+    display: block;
+}
 #facebook-feed {
+    clear: right;
     background:white;
     width: 350px;
     float:right;
