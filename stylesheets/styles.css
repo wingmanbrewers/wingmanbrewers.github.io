@@ -312,6 +312,21 @@ h2.tagline {
     float:left;
 }
 
+#drink {
+    padding: 20px;
+}
+#drink h4 {
+    margin: 5px;
+}
+#drink ul {
+    padding: 0 0 0 2em;
+    margin: 0;
+    list-style-type: none;
+}
+#drink li {
+    padding-bottom: .3em;
+}
+
 /*
 dark1/font: 3d2a2e
 font2: 6c5a5d
