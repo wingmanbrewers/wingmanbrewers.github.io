@@ -56,7 +56,7 @@ with open('_includes/locations.html', 'w') as file:
         if len(locations) < 1:
             continue
         # Sort
-        locations.sort()
+        locations.sort(key=lambda loc: loc.name)
         # Print the city name to the file
         file.write('<h4>{0}</h4>\n<ul>\n'.format(city))
         # Loop through locations
