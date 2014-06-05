@@ -4,6 +4,7 @@ import os, sys
 
 import StringIO
 import csv
+import cgi
 
 import requests
 from collections import namedtuple
@@ -60,5 +61,5 @@ with open('_includes/locations.html', 'w') as file:
         file.write('<h4>{0}</h4>\n<ul>\n'.format(city))
         # Loop through locations
         for loc in locations:
-            file.write('    <li><a href="{0}">{1}</a></li>\n'.format(loc.url, loc.name))
+            file.write('    <li><a href="{0}">{1}</a></li>\n'.format(loc.url, cgi.escape(loc.name)))
         file.write('</ul>\n')
