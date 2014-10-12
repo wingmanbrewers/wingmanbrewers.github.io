@@ -2,3 +2,4 @@ _site
 .idea
 *.iml
 atlassian*xml
+.DS_Store
